@@ -1,0 +1,8 @@
+name: MiniChat
+version: '${project.version}'
+main: dev.manere.minichat.MiniChat
+api-version: '1.13'
+softdepend: [PlaceholderAPI]
+permissions:
+  minichat.command:
+    default: op
